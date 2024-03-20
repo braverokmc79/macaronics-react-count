@@ -4,6 +4,7 @@ import Counter from './components/Counter/Counter.jsx';
 import Header from './components/Header.jsx';
 import { log } from './log.js';
 import ConfigureCounter from './components/Counter/ConfigureCounter.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   log('<App /> rendered');
@@ -23,6 +24,7 @@ function App() {
         <Counter key={chosenCounter}  initialCount={chosenCounter} />
         <Counter key={new Date().getTime()} initialCount={0} />
       </main>
+      <Footer/>
     </>
   );
 }

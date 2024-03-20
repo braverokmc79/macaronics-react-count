@@ -178,3 +178,17 @@ section {
   color: #051a19;
   height: 0.9rem;
 }
+
+footer{
+  text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover{
+  
+  color: #16f3eb;
+}

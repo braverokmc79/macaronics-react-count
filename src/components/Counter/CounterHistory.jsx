@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import { log } from '../../log.js';
-
+// million-ignore
 function HistoryItem({ count }) {
   log('<HistoryItem /> rendered', 3);
 
